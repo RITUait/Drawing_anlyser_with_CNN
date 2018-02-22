@@ -1,0 +1,38 @@
+<!doctype html>
+<html>
+<head>
+    <title>Sketch Pad</title>
+    <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+    <script src="js/index.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=0" />
+</head>
+<body>
+<div id="page">
+    <div class="header">
+		<a id="new" class="navbtn" onclick="newCanvas()">New</a>
+        <div class="title">Sketch Pad</div>
+    </div>
+    <div id="content"><p style="text-align:center">Loading Canvas...</p></div>
+    <div class="footer">
+		<div class="palette-case">
+			<div class="palette-box">
+				<div class="palette white" onclick="selectColor(this)"></div>
+			</div>
+			<div class="palette-box">
+				<div class="palette red" onclick="selectColor(this)"></div>
+			</div>
+			<div class="palette-box">
+				<div class="palette blue" onclick="selectColor(this)"></div>
+			</div>
+			<div class="palette-box">
+				<div class="palette green" onclick="selectColor(this)"></div>
+			</div>
+			<div class="palette-box">
+				<div class="palette black" onclick="selectColor(this)"></div>
+			</div>
+			<div style="clear:both"></div>
+		</div>
+    </div>
+</div>
+</body>
+</html>
